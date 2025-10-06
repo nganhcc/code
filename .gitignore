@@ -1,0 +1,42 @@
+# Ignore all files by default
+*
+
+# But keep C++ source and header files
+!*.cpp
+!*.h
+!*.hpp
+
+# Also keep the .gitignore itself
+!.gitignore
+!README.md
+
+# Common build folders
+/build/
+/bin/
+/obj/
+/out/
+
+# Common compiled files
+*.exe
+*.out
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.lib
+
+# IDE/editor files
+.vscode/
+.idea/
+*.code-workspace
+*.sln
+*.vcxproj*
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+
+# System files
+.DS_Store
+Thumbs.db
